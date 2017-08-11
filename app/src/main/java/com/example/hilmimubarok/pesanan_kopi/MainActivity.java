@@ -71,11 +71,11 @@ public void Submitorder (View view) {
     }
 
     private String CreateOrderSummary(int price, String name, int meja, boolean addWhippedCream, boolean addChocolate) {
-        String pricemessage = " Nama"+name;
+        String pricemessage = " Nama "+name;
         pricemessage += "\n No. Meja = "+meja;
-        pricemessage += "\n add Whipped Cream ? = "+addWhippedCream;
-        pricemessage += "\n add Chocolate ? = "+addChocolate;
-        pricemessage += "\n add quantity "+quantity;
+        pricemessage += "\n Tambah Whipped Cream ? = "+addWhippedCream;
+        pricemessage += "\n Tambah Chocolate ? = "+addChocolate;
+        pricemessage += "\n Tambah quantity "+quantity;
         pricemessage += "\n Total Rp "+price;
         pricemessage += "\n Thank You";
         return pricemessage;
